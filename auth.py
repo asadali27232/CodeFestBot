@@ -4,7 +4,7 @@ from google.auth.transport.requests import Request
 import os
 
 # The scope for reading Google Sheets
-SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
+SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
 
 def main():
