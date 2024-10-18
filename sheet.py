@@ -99,7 +99,7 @@ def post(row, value):
             .execute()
         )
 
-        print(f"Row {row} updated with {value}!")
+        print(f"Row {row - 1} updated with {value}!")
     except HttpError as err:
         print(err)
 
