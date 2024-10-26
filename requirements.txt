@@ -4,3 +4,4 @@ google-auth-oauthlib
 google-auth
 selenium
 webdriver-manager
+google-auth-oauthlib

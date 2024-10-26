@@ -5,12 +5,13 @@ from selenium.webdriver.common.by import By
 from concurrent.futures import ThreadPoolExecutor
 
 
+
 def submit_form(driver, name, email):
 
     name_field = driver.find_element(
         By.ID, 'e729bd5e-3362-4712-823c-9b426dcb0610')
     name_field.clear()
-    name_field.send_keys(name)
+    name_field.send_keys(name) 
 
     email_field = driver.find_element(
         By.ID, '9271d54a-c70b-4375-ac4b-7ad4502d321d')

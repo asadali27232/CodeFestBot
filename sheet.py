@@ -108,8 +108,5 @@ if __name__ == "__main__":
     values = get()
 
     for row in values:
-        if row[0] == "Name" and row[1] == "Email":
-            pass
-        else:
-            # Print columns A and E, which correspond to indices 0 and 4.
+        if row[0] and row[1]:
             print(f"{row[0]}, {row[1]}")
